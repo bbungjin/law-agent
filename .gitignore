@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+*.bin
+*.gguf
+.DS_Store
+.ipynb_checkpoints/
+reports/**/*.png
+src/*.egg-info/
+.claude/
+data/index/*.npy

@@ -1,0 +1,57 @@
+[
+  {
+    "label": "A-emb/article",
+    "retriever": "embedding",
+    "chunk_strategy": "article",
+    "query_rewrite": false,
+    "top_k": 5,
+    "n_questions": 25,
+    "recall_at_k": 0.28,
+    "mrr": 0.2333,
+    "per_question": []
+  },
+  {
+    "label": "B-emb/para",
+    "retriever": "embedding",
+    "chunk_strategy": "article_paragraph",
+    "query_rewrite": false,
+    "top_k": 5,
+    "n_questions": 25,
+    "recall_at_k": 0.28,
+    "mrr": 0.198,
+    "per_question": []
+  },
+  {
+    "label": "C-bm25/article",
+    "retriever": "bm25",
+    "chunk_strategy": "article",
+    "query_rewrite": false,
+    "top_k": 5,
+    "n_questions": 25,
+    "recall_at_k": 0.2,
+    "mrr": 0.18,
+    "per_question": []
+  },
+  {
+    "label": "D-bm25/para",
+    "retriever": "bm25",
+    "chunk_strategy": "article_paragraph",
+    "query_rewrite": false,
+    "top_k": 5,
+    "n_questions": 25,
+    "recall_at_k": 0.2,
+    "mrr": 0.18,
+    "per_question": []
+  },
+  {
+    "label": "E-hybrid/article",
+    "retriever": "hybrid",
+    "chunk_strategy": "article",
+    "query_rewrite": false,
+    "top_k": 5,
+    "n_questions": 25,
+    "recall_at_k": 0.24,
+    "mrr": 0.2,
+    "per_question": []
+  }
+]
